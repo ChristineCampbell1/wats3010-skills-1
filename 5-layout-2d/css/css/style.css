@@ -1,0 +1,17 @@
+.table {
+    display: table;
+    height: 100%;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 10px;
+  }
+  .row {
+    display: table-row;
+  }
+  .col {
+    display: table-cell;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    height: 100%;
+  }
